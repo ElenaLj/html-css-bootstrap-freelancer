@@ -69,6 +69,11 @@ header{
     background-color: transparent;
 }
 
+/* *** sezione form *** */
+.ms_btn-green {
+    background-color: #1abc9c;
+}
+
 /* *** footer *** */
 
 .footer-top{
