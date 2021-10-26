@@ -22,15 +22,20 @@ header{
 
 #star {
     font-size: 2rem;
+    position: relative;
 }
 
 #star::before {
     content: "";
-    width: 50px;
-    height: 3px;
-    color: white;
-    border-radius: 2px;
+    width: 100px;
+    height: 5px;
+    background-color: white;
+    border-radius: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 120px;
 }
+
 
 /* *** footer *** */
 
@@ -50,9 +55,9 @@ header{
     border: 1px solid black;
 }
 
-.debug #jumbo {
+/* .debug #jumbo {
     height: 500px;
-}
+} */
 
 /* .debug .footer-top,
 .debug .footer-bottom {
