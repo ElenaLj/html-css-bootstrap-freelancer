@@ -36,6 +36,17 @@ header{
     left: 120px;
 }
 
+#star::after {
+    content: "";
+    width: 100px;
+    height: 5px;
+    background-color: white;
+    border-radius: 1rem;
+    position: absolute;
+    top: 50%;
+    right: 120px;
+}
+
 
 /* *** footer *** */
 
